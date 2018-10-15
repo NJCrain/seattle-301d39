@@ -35,9 +35,9 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  console.log(rando);
+
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // rando is now scoped to only the display pics function, meaning anything outside of the function can not call it.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
